@@ -1,7 +1,19 @@
 ﻿@page "/"
+@using SharedLib
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Edit person - Blazor WebAssembly</h1>
 
-Welcome to your new app.
+<p>Current name: @_person.FirstName</p>
+<input @bind="_person.FirstName" placeholder="Edit first name"/>
+<button @onclick="UpdateName">Save</button>
+
+@code {
+    private static Person _person = new() { FirstName = "John" };
+
+    private void UpdateName()
+    {
+        Console.WriteLine($"Saved: {_person.FirstName}");
+    }
+}
