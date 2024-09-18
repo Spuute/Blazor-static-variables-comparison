@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWebAssembly", "BlazorWebAssembly", "{A1B581CB-7AB2-4A0D-B8E2-2C84ECD325A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorServer", "BlazorServer", "{99CBDC05-EE1F-4FB8-BAA2-127301D4625A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WasmStaticVariablesComparison", "WasmStaticVariablesComparison\WasmStaticVariablesComparison.csproj", "{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerStaticVariablesComparison", "ServerStaticVariablesComparison\ServerStaticVariablesComparison.csproj", "{8871B677-711B-4F80-8880-9A090C8EBF6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00} = {A1B581CB-7AB2-4A0D-B8E2-2C84ECD325A6}
+		{8871B677-711B-4F80-8880-9A090C8EBF6A} = {99CBDC05-EE1F-4FB8-BAA2-127301D4625A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EAE1C7-26A3-4233-A8A9-A05A63EC5C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8871B677-711B-4F80-8880-9A090C8EBF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8871B677-711B-4F80-8880-9A090C8EBF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8871B677-711B-4F80-8880-9A090C8EBF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8871B677-711B-4F80-8880-9A090C8EBF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
