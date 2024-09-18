@@ -13,9 +13,11 @@ This repository illustrates the differences between **Blazor WebAssembly** (WASM
 
 ### Usage
 
-1. **Run the Blazor WebAssembly project**: Open the example page in multiple tabs or browsers and observe the isolated behavior of static variables.
-2. **Run the Blazor Server project**: Open the example page in multiple browsers or devices and observe how changes to static variables are reflected across all users in real time.
+1. **Run the Blazor WebAssembly project**: Open the example page in multiple tabs or browsers and observe the isolated behavior of static variables. Each time you hit the Save button, take a look in the console. 
+You will see that the name change only happens in the current tab.
+
+2. **Run the Blazor Server project**: Open the example page in multiple browsers and observe how changes to static variables are reflected across all users in real time. Each time you hit the Save button, take a look at the terminal window and you will see that every change is logged, no matter what tab you are saving from. And if you make a change in Tab A and refresh Tab B you will have the new name.
 
 ### Purpose
 
-This repository is intended to provide a practical understanding of how static variables differ in behavior between client-side and server-side Blazor applications. It helps illustrate important concepts for managing state in Blazor apps.
+This repository is intended to provide a practical understanding of how static variables differ in behavior between client-side and server-side Blazor applications. 
